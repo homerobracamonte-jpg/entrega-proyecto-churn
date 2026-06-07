@@ -1,9 +1,8 @@
 # Proyecto Integrador: Predicción de Churn
 
-Proyecto desarrollado para el Diplomado en Desarrollo Web para Analítica de Datos.
+Este proyecto tiene como objetivo analizar y predecir la fuga de clientes (Churn) utilizando técnicas de ciencia de datos.
 
-## Objetivo
-Desarrollar un modelo de clasificación para predecir el abandono de clientes en una empresa de telecomunicaciones (Churn), permitiendo la toma de decisiones estratégicas para la retención.
-
-## Estructura
-- /docs: Contiene la ficha del proyecto y el análisis del dataset.
+## Estructura del repositorio
+- **/docs**: Contiene la ficha del proyecto y el análisis de los datos.
+- **/data/raw**: Contiene el dataset original.
+- **/notebooks**: Contiene el cuaderno de exploración de datos.
