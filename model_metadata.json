@@ -1,7 +1,0 @@
-{
-    "modelo": "RandomForestClassifier",
-    "version": "1.0",
-    "metrica_principal": "f1_score_macro",
-    "valor_metrica": 0.42,
-    "observaciones": "Entrenado con sklearn, semilla 42"
-}
