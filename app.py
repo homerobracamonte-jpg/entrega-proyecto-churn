@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("modelo_final (2).pkl")
 
-st.title("Predicción de Churn")
+st.title("PRUEBA STREAMLIT 123")
 
 internet = st.selectbox(
     "Tipo de Internet",
