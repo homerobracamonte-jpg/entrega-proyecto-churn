@@ -1,8 +1,0 @@
-# Diccionario de Datos
-
-| Variable | Tipo | Rol | Descripción |
-| :--- | :--- | :--- | :--- |
-| SeniorCitizen | Numérico | Feature | Indica si el cliente es adulto mayor (1=Sí, 0=No). |
-| tenure | Numérico | Feature | Meses que el cliente lleva en la compañía. |
-| MonthlyCharges | Numérico | Feature | Monto facturado mensualmente al cliente. |
-| Churn | Categórico | Target | Variable objetivo: ¿El cliente se fue? (Yes/No). |
