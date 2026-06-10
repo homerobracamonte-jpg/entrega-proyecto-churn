@@ -18,14 +18,13 @@ monthly_charges = st.number_input(
     value=50.0
 )
 
+# Predicción
 if st.button("Predecir"):
 
     input_data = pd.DataFrame(
         [[tenure, monthly_charges]],
         columns=["tenure", "MonthlyCharges"]
     )
-
-    st.write(input_data)  # temporal para verificar
 
     pred = model.predict(input_data)
 
