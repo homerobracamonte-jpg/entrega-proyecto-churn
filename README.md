@@ -56,5 +56,9 @@ Consideraciones Éticas
 
 El modelo puede presentar errores de clasificación y debe utilizarse únicamente como apoyo para la toma de decisiones. Los resultados no deben emplearse como criterio único para determinar acciones sobre los clientes.
 
+## Nota sobre el Modelo
+
+El modelo utilizado por la aplicación Streamlit se encuentra almacenado en el archivo `modelo_final (2).pkl`.
+Durante el desarrollo se realizaron distintas versiones del modelo y se conservó esta nomenclatura para mantener la compatibilidad con la aplicación desplegada. La aplicación carga correctamente este archivo para realizar las predicciones de abandono de clientes.
 
 Homero Bracamonte
