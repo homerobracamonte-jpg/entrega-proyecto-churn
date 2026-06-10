@@ -4,23 +4,27 @@ import joblib
 
 model = joblib.load("modelo_final (2).pkl")
 
-# Mostrar las variables que espera el modelo
-st.write("Variables esperadas por el modelo:")
-st.write(model.feature_names_in_)
-
 st.title("Predicción de Churn")
 
-internet = st.selectbox(
-    "Tipo de Internet",
-    [0, 1, 2]
+tenure = st.number_input(
+    "Meses como cliente (tenure)",
+    min_value=0,
+    value=12
 )
 
-input_data = pd.DataFrame(
-    [[internet]],
-    columns=["InternetService"]
+monthly_charges = st.number_input(
+    "Cargo mensual (MonthlyCharges)",
+    min_value=0.0,
+    value=50.0
 )
 
 if st.button("Predecir"):
+
+    input_data = pd.DataFrame(
+        [[monthly_charges, tenure]],
+        columns=["MonthlyCharges", "tenure"]
+    )
+
     pred = model.predict(input_data)
 
     if pred[0] == 1:
