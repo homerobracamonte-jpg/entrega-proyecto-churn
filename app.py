@@ -4,7 +4,11 @@ import joblib
 
 model = joblib.load("modelo_final (2).pkl")
 
-st.title("PRUEBA STREAMLIT 123")
+# Mostrar las variables que espera el modelo
+st.write("Variables esperadas por el modelo:")
+st.write(model.feature_names_in_)
+
+st.title("Predicción de Churn")
 
 internet = st.selectbox(
     "Tipo de Internet",
