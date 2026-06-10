@@ -6,11 +6,15 @@ model = joblib.load("modelo_final.pkl")
 
 st.title("Predicción de Churn")
 
-tenure = st.number_input("Meses de contrato", 0, 100)
-monthly = st.number_input("Pago mensual", 0, 200)
+internet = st.selectbox(
+    "Tipo de Internet",
+    [0, 1, 2]
+)
 
-input_data = pd.DataFrame([[tenure, monthly]],
-                          columns=["tenure", "MonthlyCharges"])
+input_data = pd.DataFrame(
+    [[internet]],
+    columns=["InternetService"]
+)
 
 if st.button("Predecir"):
     pred = model.predict(input_data)
