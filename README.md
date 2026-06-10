@@ -1,4 +1,4 @@
-Proyecto Integrador: Predicción de Churn de Clientes
+Proyecto Integrador: Predicción de Churn de Clientes en una Empresa de Telecomunicaciones
 Descripción del Proyecto
 
 El objetivo de este proyecto es analizar y predecir la fuga de clientes (Churn) utilizando técnicas de Ciencia de Datos y Machine Learning.
