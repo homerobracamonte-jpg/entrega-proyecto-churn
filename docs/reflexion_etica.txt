@@ -1,6 +1,0 @@
-# Reflexión Ética
-
-1. Riesgos: El modelo puede presentar sesgos al identificar clientes en riesgo de abandono basándose en datos históricos, lo cual podría llevar a conclusiones erróneas.
-2. Afectados: Clientes que podrían recibir ofertas innecesarias o, en el peor de los casos, ser ignorados si el modelo falla al detectar su necesidad de atención.
-3. Mitigación: El modelo es una herramienta de apoyo para el equipo humano; la decisión final sobre la retención de un cliente debe ser validada por un profesional. Se han excluido datos personales innecesarios para proteger la privacidad.
-4. Declaración: Este sistema no toma decisiones automáticas. Su propósito es brindar orientación basada en datos para mejorar la gestión y experiencia del cliente.
